@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: skyblue;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 8px 15px rgb(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 15px;
+}
+h3{
+    font-size: 35px;
+}
+input{
+    height: 30px;
+    font-size: 25px;
+}
+button{
+    font-size: 24px;
+    background-color: brown;
+    color: white;
+}
+p{
+    font-size: 20px;
+}
